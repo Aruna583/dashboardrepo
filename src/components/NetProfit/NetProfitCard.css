@@ -1,0 +1,126 @@
+
+.parent-container-sales-card{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #ffff;
+    gap: 20px;
+}
+
+@media (max-width: 576px) {
+    .net-profit{
+        width: 90%;
+    }
+}
+
+.net-profit-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.circular-bar{
+display: flex;
+align-content: end;
+justify-content: center;
+gap: 2rem;
+}
+
+.CircularProgressbar {
+    width: 20% !important;
+    overflow: visible;
+}
+
+.CircularProgressbar-path{
+    stroke: white !important;
+    stroke-width: 12px !important ;
+    filter: drop-shadow(2px 4px 6px white)
+}
+
+.CircularProgressbar-trail{
+display: none;
+}
+
+
+.CircularProgressbar-text{
+    fill:white !important;
+}
+
+
+.barvalue-div{
+    flex:1;
+display:flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-around;
+}
+.profit-card-title{
+    font-size: 10px;
+}
+
+.profit-value{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profit-percentage{
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .parent-container-sales-card {
+        display: flex;
+    flex-direction: row;
+        gap: 4px;
+    }
+
+    .CircularProgressbar {
+        width: 50% !important;
+    }
+
+    .profit-card-title {
+        font-size: 10px;
+    }
+
+    .profit-value {
+        font-size: 24px;
+    }
+
+    .barvalue-div{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .parent-container-sales-card {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+
+    .CircularProgressbar {
+        width: 35% !important;
+    }
+
+    .profit-card-title {
+        font-size: 10px;
+    }
+
+    .profit-value {
+        font-size: 24px;
+    }
+
+    .barvalue-div{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    }
+}
+

@@ -1,0 +1,115 @@
+.popular-section-container{
+    display: flex;
+    padding: 6px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.popular-div-container{
+    margin-top: 10px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: rgb(224, 198, 245) 0px 10px 20px 0px;
+}
+
+.popular-image-container{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.popular-section-div-container{
+    display: flex;
+    align-items: center;
+}
+
+.goals-image{
+    background-color: #fff1ef;
+    border: 2px, solid, #ffadad;
+    color: #ff6f61;
+}
+
+.dish{
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-right: 4px;
+}
+
+.popular-arrow-icon{
+    cursor: pointer;
+    color: #ff6f61;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+.popular-dishes{
+    background-color: #e8f5e9;
+    border: 2px solid #a5d6a7;
+    color: #388e3c;
+}
+
+.menus-icons{
+    background-color: #e0f7fa;
+    border: 2px solid #80deea;
+    color: #00838f;
+}
+
+.popular-heading{
+    font-size: 20px;
+    padding-left: 4px;
+    color: navy;
+}
+
+
+@media (min-width: 600px) {
+    .popular-heading {
+        font-size: 14px;
+    }
+
+    .dish {
+       padding : 14px; 
+        font-size: 14px;
+    }
+
+    .popular-div-container {
+        padding: 8px;
+    }
+}
+
+@media (min-width: 768px) {
+    .popular-heading {
+        font-size: 20px;
+    }
+
+    .dish {
+        font-size: 16px;
+    }
+
+    .popular-div-container {
+        padding: 16px;
+    }
+}
+
+@media (max-width: 530px) {
+    .popular-div-container{
+        width: 80%;
+    }
+
+    .popular-heading{
+        font-size: 12px;
+    }
+}
+
+

@@ -1,0 +1,148 @@
+.card-container{
+  height: 11rem !important;
+  position: relative;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+
+.num-div{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.card-container:hover{
+    box-shadow: none !important;
+}
+
+.dashboard-icon{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 0.6rem;
+    /* color:red */
+}
+
+.card-title{
+    font-size: 14px;
+    font-family: sans-serif
+}
+
+.total-num{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.percentage-div{
+    display: flex;
+    align-items: center;
+
+}
+
+.percentage-align{
+    font-size: 20px;
+    font-family: sans-serif
+}
+
+@media (max-width: 575.98px) {
+  .card-container {
+    height: auto !important;
+    padding: 0.5rem;
+  }
+  .dashboard-icon {
+    height: 40px;
+    width: 40px;
+  }
+  .card-title {
+    font-size: 12px;
+  }
+  .total-num {
+    font-size: 20px;
+  }
+  .percentage-align {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card-container {
+    height: 10rem !important;
+    padding: 0.8rem;
+  }
+  .dashboard-icon {
+    height: 45px;
+    width: 45px;
+  }
+  .card-title {
+    font-size: 13px;
+  }
+  .total-num {
+    font-size: 22px;
+  }
+  .percentage-align {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-container {
+    height: 10.5rem !important;
+  }
+  .dashboard-icon {
+    height: 48px;
+    width: 48px;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .total-num {
+    font-size: 23px;
+  }
+  .percentage-align {
+    font-size: 19px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .card-container {
+    height: 11rem !important;
+  }
+  .dashboard-icon {
+    height: 50px;
+    width: 50px;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .total-num {
+    font-size: 24px;
+  }
+  .percentage-align {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-container {
+    height: 11rem !important;
+  }
+  .dashboard-icon {
+    height: 50px;
+    width: 50px;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .total-num {
+    font-size: 24px;
+  }
+  .percentage-align {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,28 @@
+.Cards{
+    display: flex;
+    gap:10px;
+
+}
+
+.parent-container{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .Cards {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Cards {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .parent-container {
+        padding: 10px;
+        width: 80%;
+    }
+}

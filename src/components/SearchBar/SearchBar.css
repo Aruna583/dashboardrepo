@@ -1,0 +1,11 @@
+.search-bar{
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .search-bar{
+        display: block;
+    }
+    
+}

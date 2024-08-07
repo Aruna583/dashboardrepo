@@ -1,0 +1,150 @@
+.sidebar-align{
+    grid-area: sidebar;
+    width: 60px;
+    height: 97%;
+    box-shadow: 6px 0 6px -6px rgba(0, 0, 0, 0.35);
+    position: relative;
+    padding-top: 1rem;
+    transition: all 300ms ease;
+}
+
+.icon-item{
+    height: 20px;
+    width:20px;
+}
+
+.dash-board-logo-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.sidebar-logo{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-menu{
+    padding-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    transition: all 300ms ease;
+    font-size: 12px;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+.menuItem:hover{
+    cursor: pointer;
+}
+
+.active{
+    background: var(--activeItem);
+    margin-left: -7px;
+}
+
+.active::before{
+    content: '';
+    width: 6px;
+    height: 100%;
+    background-color: var(--pink);
+    margin-right: calc(1rem - 6px)
+}
+
+.sidebar-menu .menuItem:last-child{
+    position: absolute;
+    width: 100%;
+    bottom: 2.3rem;
+}
+
+
+.logout-icon{
+    height: 20px;
+    width: 20px;
+}
+
+
+/* @media screen and (max-width: 768px){
+    .SideBar{
+        display: flex;
+        position: fixed;
+        top: 2rem;
+        z-index: 9;
+        background: #ffe0e0;
+        padding: 10px;
+    }
+} */
+
+
+@media screen and (max-width: 1024px) {
+    .sidebar-align {
+        width: 50px;
+    }
+    .menuItem {
+        font-size: 10px;
+        height: 1.8rem;
+    }
+    .dash-board-logo-icon {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar-align {
+        width: 40px;
+    }
+    .menuItem {
+        font-size: 10px;
+        height: 1.6rem;
+    }
+    .dash-board-logo-icon {
+        height: 30px;
+        width: 30px;
+    }
+    .SideBar {
+        display: flex;
+        position: fixed;
+        top: 2rem;
+        z-index: 9;
+        background: #ffe0e0;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar-align {
+        width: 30px;
+    }
+    .menuItem {
+        font-size: 8px;
+        height: 1.4rem;
+    }
+    .dash-board-logo-icon {
+        height: 25px;
+        width: 25px;
+    }
+    .sidebar-menu {
+        padding-top: 0.8rem;
+    }
+    .sidebar-logo {
+        height: 3rem;
+    }
+    .SideBar {
+        display: none;
+    }
+}
+
+@media (max-width: 559px) {
+    .sidebar-align{
+        display: none;
+    }
+}

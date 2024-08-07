@@ -1,0 +1,99 @@
+.table-heading{
+    font-size: 20px;
+    padding-left: 16px;
+}
+
+@media (max-width: 600px) {
+    .table-heading{
+        font-size: 16px;
+        padding-left: 8px;
+    }
+}
+
+.MuiTableRow-root>*{
+    padding: 10px;
+}
+@media (max-width: 550px) {
+    .Table {
+        margin-top: 38px;
+        width: 87%;
+    }
+}
+
+@media (max-width: 600px) {
+    .MuiTableRow-root>*{
+        padding: 5px;
+    }
+}
+
+.MuiTableRow-root.MuiTableRow-head>*{
+    font-size: 20px;
+    font-weight: bold !important;
+}
+
+@media (max-width: 600px) {
+    .MuiTableRow-root.MuiTableRow-head>*{
+        font-size: 18px;
+    }
+}
+
+.Table:first-child{
+    border-radius: 0.6rem !important;
+}
+
+@media (max-width: 600px) {
+    .Table:first-child{
+        border-radius: 0.4rem !important;
+    }
+}
+
+.status{
+    padding: 8px;
+    border-radius: 9px;
+}
+
+@media (max-width: 600px) {
+    .status{
+        padding: 4px;
+        border-radius: 5px;
+    }
+}
+
+.row-image{
+    height:30px;
+    width: 30px;
+    padding: 2px;
+}
+
+@media (max-width: 600px) {
+    .row-image{
+        height: 20px;
+        width: 20px;
+        padding: 1px;
+    }
+}
+
+.row-image-div{
+    display: flex;
+}
+
+.row-customer-name{
+    padding: 8px;
+}
+
+@media (max-width: 600px) {
+    .row-customer-name{
+        padding: 4px;
+    }
+}
+
+.Table{
+    margin-top: 30px;
+}
+
+
+@media (min-width: 600px) {
+    .Table{
+        margin-top: 25px;
+    }
+}
